@@ -11,7 +11,8 @@ dataset = pd.read_csv("C:\\Users\Admin\Desktop\KFMSCCS024\iris.data",
 names=name)
 #displaying dataset
 print(dataset.head())
-X=dataset.drop('Class',1)
+# X=dataset.drop('Class',1)
+X=dataset.drop(['Class'],axis="columns")
 Y=dataset['Class']
 #splitting train and test data set
 x_train,x_test,y_train,y_test = train_test_split(X,Y,test_size=0.2,
