@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-print("Name: Nihal Siddiqui, Roll No. KFMSCCS024")
+
 
 X = np.array([1, 2, 3, 4])
 Y = np.array([5, 6, 7, 8])

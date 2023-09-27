@@ -1,5 +1,4 @@
-import math
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+
 
 x1 = float(input("Enter the input x1: "))
 x2 = float(input("Enter the input x2: "))
@@ -12,7 +11,7 @@ yin1 = (x1*w11) + (x2*w21)
 yin2 = (x1*w12) + (x2*w22)
 
 
-if yin1 > 0:
+if yin1 >= 0:
     y1 = 1
 else:
     y1 = -1

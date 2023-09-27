@@ -1,4 +1,4 @@
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+
 w1 = 0
 w2 = 0
 b = 0

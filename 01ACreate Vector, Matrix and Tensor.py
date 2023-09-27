@@ -1,8 +1,6 @@
 import numpy as np
 import tensorflow as tf
 
-print("Name: Nihal Siddiqui, Roll No. KFMSCCS024")
-
 A = np.array([1, 2, 3, 4])
 print("Create a vectors: ", A)
 

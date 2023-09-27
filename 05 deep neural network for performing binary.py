@@ -2,8 +2,8 @@
 from numpy import loadtxt
 from keras.layers import Dense
 from keras.models import Sequential
-dataset = loadtxt("given\diabetes.csv", delimiter=',')
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+dataset = loadtxt("C:\\Users\\pima-indians-diabetes.csv", delimiter=',')
+
 import numpy as np
 from keras.layers import Dense
 from keras.models import Sequential
@@ -25,17 +25,17 @@ X=dataset[:,0:8]
 Y=dataset[:,8]
 print(X)
 print(Y)
-#creating model
+
 model = Sequential()
 model.add(Dense(12, input_dim=8, activation='relu'))
 model.add(Dense(8, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
-#compiling model and fitting model
+
 model.compile(loss='binary_crossentropy', optimizer='adam',
 metrics=['accuracy'])
 model.fit(X,Y,epochs=150, batch_size=10)
-#Evaluating accuracy
+
 accuracy= model.evaluate(X,Y)
 print("Accuracy of model is: ", (accuracy*100))
-#prediction
+
 prediction=model.predict(X)

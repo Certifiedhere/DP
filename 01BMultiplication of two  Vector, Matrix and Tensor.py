@@ -1,8 +1,6 @@
 import numpy as np
 import tensorflow as tf
 
-print("Name: Nihal Siddiqui, Roll No. KFMSCCS024")
-
 A = np.array([[1, 2], [3, 4], [5, 6]])
 print("A :- ", A)
 B = np.array([[2, 5], [7, 4], [5, 6]])

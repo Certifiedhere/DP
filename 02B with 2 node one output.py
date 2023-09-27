@@ -1,5 +1,4 @@
 import math
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
 
 x1 = float(input("Enter the input x1: "))
 x2 = float(input("Enter the input x2: "))

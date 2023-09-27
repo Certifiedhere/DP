@@ -2,7 +2,7 @@
 import numpy as np
 from keras.layers import Dense
 from keras.models import Sequential
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+
 
 model = Sequential()
 model.add(Dense(units=2, activation='relu', input_dim=2))

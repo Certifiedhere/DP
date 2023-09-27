@@ -2,7 +2,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from sklearn.datasets import make_regression
 from sklearn.preprocessing import MinMaxScaler
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+print("Name: Rizwan Ansari, Roll No. KFMSCCS001")
 X,Y = make_regression(n_samples=100, n_features=2, noise =0.1, random_state
 = 1)
 scalarX,scalarY = MinMaxScaler(),MinMaxScaler()
@@ -23,3 +23,6 @@ Xnew = scalarX.transform(Xnew)
 Ynew = model.predict(Xnew)
 for i in range(len(Xnew)):
  print("X=%s Predicted=%s"%(Xnew[i], Ynew[i]))
+
+
+print("Name: Rizwan Ansari, Roll No. KFMSCCS001")

@@ -1,4 +1,4 @@
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
+
 x1 = [1, 1, -1, -1]
 x2 = [1, -1, 1, -1]
 y = [1, 1, 1, -1]
@@ -12,8 +12,7 @@ w2 = 0.1
 b = 0.1
 a = 0.1
 print("w1: ", w1, "\tw2", w2, "\tb: ", b, "\talpha: ", a)
-print("x1\tx2\t\tyin\t\ty\t\tw1new\t\tw2new\t\tbnew")
-print("-----------------------------------------")
+
 for i in range(4):
     yin = b + ((x1[i]*w1) + (x2[i]*w2))*a
     dw1 = a * (y[i] - yin) * x1[i]
@@ -23,5 +22,5 @@ for i in range(4):
     w2 = w2 + dw2
     b = b + db
 
-print(x1[i], "\t", x2[i], "\t\t", round(yin, 2), "\t\t", round(y[i], 2),
-      "\t\t", round(w1, 2), "\t\t", round(w2, 2), "\t\t", round(b, 2))
+print(x1[i], "\t", x2[i],   round(yin, 2),   round(y[i], 2),
+      round(w1, 2),   round(w2, 2),   round(b, 2))

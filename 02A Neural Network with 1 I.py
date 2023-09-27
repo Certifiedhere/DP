@@ -1,4 +1,3 @@
-print("Name:- Nihal Siddiqui, Roll NO. KFMSCCS024")
 
 x = float(input("Enter the input X= "))
 w = float(input("Enter the input W= "))
